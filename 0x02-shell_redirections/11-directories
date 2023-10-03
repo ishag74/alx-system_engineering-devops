@@ -1,2 +1,2 @@
 #!/bin/bash
-find -mindepth 1 -type d | wc -l
+grep -e ^[[:lower:]] -e ^[[:upper:]] /etc/ssh/sshd_config
